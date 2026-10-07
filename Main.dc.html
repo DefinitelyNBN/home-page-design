@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Leroy's Auto Repairs</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&amp;family=Barlow:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{text-decoration:none}
+</style>
+</helmet>
+<div style="font-family: 'Barlow', sans-serif; color: #16191c; background: #ffffff">
+
+<div style="background: #16191c; padding: 14px 0">
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 24px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px">
+<div style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 28px; letter-spacing: 0.04em; color: #ffffff">LEROY'S <span style="color: {{accent}}">AUTO REPAIRS</span></div>
+<a href="tel:5703479494" style="background: {{accent}}; color: #16191c; font-weight: 600; padding: 12px 20px; min-height: 20px">Call 570-347-9494</a>
+</div>
+</div>
+
+<div style="background: #16191c; padding: 64px 0 88px">
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 24px; display: flex; flex-wrap: wrap; gap: 40px; align-items: center">
+<div style="flex: 1 1 420px">
+<div style="color: {{accent}}; font-weight: 600; font-size: 14px; letter-spacing: 0.12em">SCRANTON, PA · EXHAUST &amp; GENERAL REPAIR</div>
+<h1 style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 72px; line-height: 1; color: #ffffff; margin: 16px 0">Loud exhaust? Fixed right, and backed for 24 months.</h1>
+<p style="color: #b8bec4; font-size: 18px; line-height: 1.5; max-width: 520px; margin: 0 0 28px">Muffler, Y-pipe and catalytic converter work, plus routine maintenance for foreign and domestic cars. ASE-certified technicians at a NAPA Auto Care Center.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="tel:5703479494" style="background: {{accent}}; color: #16191c; font-weight: 600; padding: 14px 24px">Call 570-347-9494</a>
+<a href="#visit" style="border: 2px solid #ffffff; color: #ffffff; font-weight: 600; padding: 12px 24px">Request an appointment</a>
+</div>
+<div style="color: #ffffff; margin-top: 24px; font-size: 15px"><span style="color: {{accent}}">★</span> 4.8 on Google · 141 reviews</div>
+</div>
+<div style="flex: 1 1 300px; background: #22272b; border: 1px solid #343b41; padding: 28px">
+<div style="color: {{accent}}; font-weight: 600; font-size: 13px; letter-spacing: 0.12em">HOURS</div>
+<div style="color: #ffffff; font-size: 20px; margin: 8px 0 4px">Mon–Fri · 9:00 AM – 5:00 PM</div>
+<div style="color: #b8bec4; font-size: 16px">Sat–Sun · Closed</div>
+<div style="color: {{accent}}; font-weight: 600; font-size: 13px; letter-spacing: 0.12em; margin-top: 24px">FIND US</div>
+<div style="color: #ffffff; font-size: 18px; margin-top: 8px">1932 N Main Ave<br>Scranton, PA 18508</div>
+</div>
+</div>
+</div>
+
+<div style="background: #f3f4f5; padding: 28px 0">
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px">
+<div><div style="font-weight: 600; font-size: 18px">ASE-Certified</div><div style="color: #4a5258">Technicians</div></div>
+<div><div style="font-weight: 600; font-size: 18px">NAPA Auto Care</div><div style="color: #4a5258">Center</div></div>
+<div><div style="font-weight: 600; font-size: 18px">AAA Approved</div><div style="color: #4a5258">Auto Repair</div></div>
+<div><div style="font-weight: 600; font-size: 18px">24 mo / 24,000 mi</div><div style="color: #4a5258">Nationwide warranty</div></div>
+</div>
+</div>
+
+<div style="padding: 72px 0">
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 24px">
+<h2 style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 44px; margin: 0 0 28px">What we fix</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px">
+<div style="border: 1px solid #d9dde0; padding: 24px"><div style="font-weight: 600; font-size: 20px">Exhaust &amp; muffler</div><div style="color: #4a5258; margin-top: 8px; line-height: 1.5">Muffler and exhaust replacement and repair.</div></div>
+<div style="border: 1px solid #d9dde0; padding: 24px"><div style="font-weight: 600; font-size: 20px">Y-pipe leaks</div><div style="color: #4a5258; margin-top: 8px; line-height: 1.5">Find the leak, fix it, get you back on the road.</div></div>
+<div style="border: 1px solid #d9dde0; padding: 24px"><div style="font-weight: 600; font-size: 20px">Catalytic converters</div><div style="color: #4a5258; margin-top: 8px; line-height: 1.5">Converter replacement for foreign and domestic vehicles.</div></div>
+<div style="border: 1px solid #d9dde0; padding: 24px"><div style="font-weight: 600; font-size: 20px">Routine maintenance</div><div style="color: #4a5258; margin-top: 8px; line-height: 1.5">Keep your car running between the big repairs.</div></div>
+<div style="border: 1px solid #d9dde0; padding: 24px"><div style="font-weight: 600; font-size: 20px">Foreign &amp; domestic</div><div style="color: #4a5258; margin-top: 8px; line-height: 1.5">One shop for most makes and models.</div></div>
+</div>
+</div>
+</div>
+
+<div style="background: #f3f4f5; padding: 72px 0">
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 24px; display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
+<div style="flex: 1 1 380px">
+<div style="font-weight: 600; font-size: 13px; letter-spacing: 0.12em; color: #4a5258">OPTIONAL ADD-ON · PREVIEW</div>
+<h2 style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 44px; margin: 8px 0 16px">Answers customers while you're under a car</h2>
+<p style="color: #4a5258; font-size: 18px; line-height: 1.5; margin: 0">An AI assistant on your site that answers common questions, shares hours and directions, and collects appointment requests after hours. You review and confirm each request.</p>
+</div>
+<div style="flex: 1 1 320px; max-width: 400px; background: #ffffff; border: 1px solid #d9dde0">
+<div style="background: #16191c; color: #ffffff; font-weight: 600; padding: 14px 18px">Leroy's Assistant</div>
+<div style="padding: 18px; display: flex; flex-direction: column; gap: 10px; font-size: 15px; line-height: 1.4">
+<div style="align-self: flex-end; background: {{accent}}; padding: 10px 14px; max-width: 80%">My exhaust got really loud this week. Can you look at it?</div>
+<div style="align-self: flex-start; background: #eef0f2; padding: 10px 14px; max-width: 80%">Sounds like a muffler or pipe leak. We're open Mon–Fri, 9–5. Want to request a time tomorrow?</div>
+<div style="align-self: flex-end; background: {{accent}}; padding: 10px 14px; max-width: 80%">Yes, 9:30</div>
+<div style="align-self: flex-start; background: #eef0f2; padding: 10px 14px; max-width: 80%">Got it. What's your name and phone number? We'll confirm shortly.</div>
+</div>
+<div style="border-top: 1px solid #d9dde0; padding: 12px 18px"><input type="text" placeholder="Type a message" aria-label="Message" style="width: 100%; box-sizing: border-box; border: 1px solid #c4cace; padding: 12px; font-size: 15px"></div>
+</div>
+</div>
+</div>
+
+<div id="visit" style="background: #16191c; padding: 72px 0">
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 24px; display: flex; flex-wrap: wrap; gap: 40px">
+<div style="flex: 1 1 320px; color: #ffffff">
+<h2 style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 44px; margin: 0 0 20px">Visit the shop</h2>
+<div style="font-size: 20px; line-height: 1.5">1932 N Main Ave<br>Scranton, PA 18508</div>
+<div style="color: #b8bec4; margin: 16px 0; font-size: 18px">Mon–Fri · 9:00 AM – 5:00 PM<br>Sat–Sun · Closed</div>
+<a href="tel:5703479494" style="display: inline-block; background: {{accent}}; color: #16191c; font-weight: 600; padding: 14px 24px">Call 570-347-9494</a>
+</div>
+<div style="flex: 1 1 320px; min-height: 260px; background: #22272b; border: 2px dashed #4a5258; color: #8a929a; display: flex; align-items: center; justify-content: center">[MAP: 1932 N Main Ave, Scranton]</div>
+</div>
+</div>
+
+<div style="background: #0f1113; color: #8a929a; font-size: 14px; padding: 20px 24px; text-align: center">© Leroy's Auto Repairs · 1932 N Main Ave, Scranton, PA 18508 · 570-347-9494</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#f2a900"},"$preview":{"width":1280,"height":1900}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#f2a900' };
+}
+}
+</script>
+</body>
+</html>
